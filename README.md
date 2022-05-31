@@ -94,7 +94,7 @@ It will hopefully be an application  which is clean and easy to navigate with li
 
 Lastly, the application is built with only open-source libraries, that makes it less costly to run and maintain.
 
-## Functional Requirements:
+## <a name="system-requirements"> </a> Functional Requirements:
 
 1) The application should allow creates, reads, updates and deletes information from MongoDB.
 2) The application should be able to store information on MongoDB.
@@ -167,7 +167,7 @@ As an administrator, I want to be able to log in to my account, so that I can us
 As an administrator, I want to be able to log out of my account, so that I can log out of the app.
 
 
-# How to use the app:
+# <a name="app-usage"> </a> How to use the app:
 
 ### To run locally:
 
