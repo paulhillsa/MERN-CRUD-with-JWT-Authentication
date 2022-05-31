@@ -1,0 +1,274 @@
+/* General */
+
+* {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  justify-content: left;
+}
+
+li {
+  list-style: disc;
+  font-size: 1rem;
+  font-weight: lighter;
+  padding: 0.5rem;
+}
+
+.form-label {
+  font-size: 1rem;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  justify-content: left;
+}
+
+/* Landing Page */
+
+#landing-page-h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+    transform: translatey(200px);
+}
+
+#landing-page-h2{
+    font-size: 2rem;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    transform: translatey(200px);
+}
+
+.landing-page-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 15%;
+    transform: translatey(200px);
+    transform: translateX(10%);
+}
+
+/* Blogs */
+
+#big-blog-container{
+  width: 100%;
+}
+
+.blogs-form-button {
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+#blog-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translatex(2%);
+  width: 80%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+  margin: 100px;
+  margin-top: 0%;
+
+}
+
+#blog-content {
+padding: 100px;
+padding-top: 10px;
+padding-bottom: 20px;
+}
+
+#blog-image {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+#web-dev-h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 4%;
+}
+
+#blogs-form-h1{
+    font-size: 2rem;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1%;
+}
+
+#blogs-form-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 1%;
+}
+
+.blogs-form-group{
+ width: 100%;
+}
+
+.admin-control {
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#blog-title {
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  justify-content: left;
+  padding: 2%;
+}
+
+#web-dev-h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  justify-content: left;
+  padding: 5%;
+}
+
+#readmore-button{
+  padding: 1%;
+  margin: 1.5%;
+  display: flex;
+  flex-direction: column;
+}
+
+#edit-delete-button{
+  padding: 1%;
+  margin: 1.5%;
+  display: flex;
+  flex-direction: row;
+}
+
+#edit-button{
+  padding: 10%;
+  margin: 10%;
+}
+
+#delete-button{
+  padding: 10%;
+  margin: 10%;
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 2%;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login-false-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  padding: 1%;
+}
+
+.login-true-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  padding: 1%;
+}
+
+.logout-button-navbar{
+  display: flex;
+  position: absolute;
+  left: 90%;
+  padding: 1%;
+}
+
+.login-button-navbar{
+  display: flex;
+  position: absolute;
+  left: 90%;
+  padding: 1%;
+}
+
+.register-button-navbar{
+  display: flex;
+  position: absolute;
+  left: 84%;
+  padding: 1%;
+}
+
+/* Login */
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  width: 50%;
+  padding: 10%;
+}
+
+#login-text {
+  font-size: 2rem;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  justify-content: left;
+}
+
+.login-submit-button-container {
+  text-align: right;
+  justify-content: right;
+  padding: 5%;
+}
+
+/* Register */
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  width: 50%;
+  padding: 10%;
+}
+
+#register-text {
+  font-size: 2rem;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  justify-content: left;
+}
+
+.register-submit-button-container {
+  text-align: right;
+  justify-content: right;
+  padding: 5%;
+}
